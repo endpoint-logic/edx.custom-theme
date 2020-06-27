@@ -1,3 +1,6 @@
 @import 'lms/static/sass/partials/lms/theme/variables';
+@import '/opt/bitnami/apps/edx/edx-platform/lms/static/sass/partials/lms/theme/_variables-v1.scss';
 
-$homepage-bg-image: url('../images/banner.png');
+// #CONFIG
+$static-path: '..' !default;
+$homepage-bg-image: url('#{static-path}/images/banner.png');
