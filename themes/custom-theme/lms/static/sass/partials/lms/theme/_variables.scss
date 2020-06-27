@@ -1,8 +1,4 @@
 @import 'lms/static/sass/partials/lms/theme/variables';
 
 
-// #CONFIG
-$static-path: '..' !default;
-
-
-$homepage-bg-image: url('#{$static-path}/images/banner.png');
+$homepage-bg-image: url('../images/banner.png');
